@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: rgb(44, 24, 231);
+    text-shadow: 1px 1px 1px black;
+}
+
+a {
+    text-shadow: none;
+    color: rgb(8, 26, 145);
+    background-color: rgb(0, 234, 255);
+}
+
+.diferente {
+    text-shadow: none;
+    color: brown;
+}
+
+h1 span {
+    text-shadow: none;
+    background-color: pink;
+}
+
+.container {}
+
+
+
+*/Ejemplo de especificidad*/ 
+
+#red{
+    color: brown;
+}
+
+.blue{
+    color: rgb(7, 9, 117)!important;
+}
+
+h1{
+    color: yellowgreen;
+}
