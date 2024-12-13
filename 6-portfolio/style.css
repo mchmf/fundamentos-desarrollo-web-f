@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    background-color: #151515;
+    color: white;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: #151515;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.container {
+    max-width: 900px;
+    /* background-color: rgb(171, 163, 163); */
+    margin: auto;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.header-content ul {
+    display: flex;
+    gap: 10px;
+}
+
+/* Sección welcome */
+#welcome {
+    /* background-color: rgb(152, 149, 149); */
+}
+
+.welcome-content {
+    display: flex;
+    padding: 50px 0;
+}
+
+.col-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    /* background-color: rgb(243, 37, 112); */
+    flex: 2;
+}
+
+.col-1 h3 {
+    font-size: 3rem;
+}
+
+.col-1 h3 span {
+    text-decoration: underline;
+    text-decoration-color: #0e67db;
+}
+
+.col-1 a {
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration-color: #0e67db;
+}
+
+.col-2 {
+    /* background-color: rgb(235, 132, 202); */
+    flex: 1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img.pizza,
+.img-hoja,
+.img-tomato {
+    position: absolute;
+}
+
+.img-pizza {
+    filter: blur(0.9px)
+}
+
+.img-tomato {
+    width: 80%;
+    right: -0px;
+    top: 0;
+}
+
+.img-hoja {
+    width: 40%;
+    left: 0;
+    bottom: 40px;
+    transform: rotate(40deg);
+}
