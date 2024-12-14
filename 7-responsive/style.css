@@ -1,0 +1,45 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+/* Estilos desktop */
+.contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100vw;
+    height: 100vh;
+    background-color: green;
+    color: white;
+}
+
+.contenedor h1 {
+    font-size: 3rem !important;
+}
+
+/* Primer breakpoint */
+@media screen and (max-width: 900px) {
+
+    .contenedor {
+        background-color: red;
+    }
+
+    .contenedor h1 {
+        font-size: 5rem !important;
+        text-decoration: underline;
+        background-color: cyan;
+        color: #232323;
+    }
+}
+
+/* Segundo breackpoint */
+@media screen and (max-width: 468px) {
+    .contenedor {
+        background-color: gold;
+    }
+}
