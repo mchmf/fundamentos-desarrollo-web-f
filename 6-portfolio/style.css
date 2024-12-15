@@ -77,6 +77,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 img.pizza,
@@ -137,9 +138,9 @@ img.pizza,
     background-color: rgb(120, 19, 208);
 } */
 
-.product-card:hover .card-hover{
+.product-card:hover .card-hover {
     opacity: 1;
-    
+
 }
 
 /* Card Hover */
@@ -187,7 +188,7 @@ img.pizza,
 
 .product-card img {
     width: 100%;
-    
+
 }
 
 /* Card hover footer */
@@ -199,9 +200,54 @@ img.pizza,
     gap: 10px;
 }
 
-.card-hover-footer i{
+.card-hover-footer i {
     background-color: white;
     padding: 10px;
     border-radius: 50%;
     cursor: pointer;
+}
+
+/* Primer breakpoint tablet*/
+@media screen and (max-width: 800px) {
+    body {
+        /* background-color: green; */
+    }
+
+    .welcome-content {
+        flex-direction: column-reverse;
+    }
+
+    .col-2 {
+        /*  background-color: rgb(235, 132, 202) !important; */
+        flex: none;
+        height: 300px;
+    }
+
+    img.pizza,
+    .img-hoja,
+    .img-tomato {
+        width: 230px;
+    }
+
+    .productos-content {
+        flex-wrap: wrap;
+    }
+
+    .product-card {
+        flex: none;
+        width: 49%;
+    }
+}
+
+/* Segundo breakpoint mobile*/
+@media screen and (max-width: 576px) {
+    body {
+        /*  background-color: #0e67db; */
+    }
+
+    .product-card {
+        flex: none;
+        width: 85%;
+        margin: auto;
+    }
 }
