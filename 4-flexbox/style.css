@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/* Padre */
+
 .container {
     display: flex;
     flex-direction: row;
@@ -20,6 +22,7 @@
     margin: 40px auto;
 }
 
+/* Hijos */
 .ball {
     display: flex;
     justify-content: center;
