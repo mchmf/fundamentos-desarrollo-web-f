@@ -243,7 +243,7 @@ img.pizza,
         width: 230px;
     }
 
-    .productos-content {
+/*     .productos-content {
         flex-wrap: wrap;
     }
 
@@ -251,7 +251,7 @@ img.pizza,
         flex: none;
         width: 49%;
     }
-
+ */
     .skills-content {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -271,11 +271,11 @@ img.pizza,
     }
 
     /*  .product-card {
-        flex: none;
+        flex: none; 
         width: 80%;
         margin: auto;
     } */
-
+ 
     .skills-content {
         grid-template-columns: repeat(1, 1fr);
     }
